@@ -21,10 +21,10 @@ export class Query {
 
   /**
    * 按照字段排序
+   * @param field 
    * @param asc 
-   * @param fields 
    */
-  public orderBy(asc: boolean, ...fields: string[]): Query {
+  public orderBy(fields: string, asc?: boolean): Query {
 
     // TODO
     
@@ -36,7 +36,7 @@ export class Query {
    * @param asc 
    * @param fields 
    */
-  public groupBy(...fields: string[]): Query {
+  public groupBy(fields: string): Query {
 
     // TODO
     

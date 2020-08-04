@@ -15,7 +15,7 @@ $ npm i --save @prototeam/data-set
 ## Usage
 
 ```ts
-import { DataSet, MAX } from '@prototeam/data-set';
+import { DataSet, MAX, RAW } from '@prototeam/data-set';
 
 const data = [
   {  id: 'A', gender: 'M', subject: 'chinese', score: 99 },
