@@ -32,7 +32,7 @@ ds.query()
   .groupBy('subject')
   .record();
 
-// 查询前两名成绩的同学
+// 查询后两名成绩的同学
 ds.query()
   .select(RAW('id'), RAW('gender'), RAW('gender'), RAW('score'))
   .orderBy(true, 'score')
